@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik';
+}
+
+.characters {
+  margin: 20px;
+  padding: 20px;
+  padding-right: 0;
+  background-color: white;
+}
+
+.characters__section {
+  background-color: $colorBackgroundCharactersList;
+}
+
+.character-alone {
+  border-bottom: $colorBackgroundHeader solid 1px;
+}
+
+.character--Daenerys, .character--Tyrion {
+  border-left: $colorBorderLeftCharacter solid 3px;
+  padding: 0;
+}
+
+.character--Tyrion, .character--Cersey  {
+  padding: 20px;
+}
+
+.image__circle {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.image__character {
+  height: 100%;
+	width: auto;
+  margin-left: -40%;
+}
+
+.triangule {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-top: 10px solid $colorTriangule;
+  border-left: 10px solid $colorTriangule;
+  border-bottom: 10px solid transparent;
+}
+
+.character-triangule {
+  padding: 20px;
+}
+
+
+@media all and (min-width: 764px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .character-list {
+    width: 60%;
+  }
+
+  .character-tab{
+    width: 40%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+
+  .character__elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+
+  .character-list {
+    width: 50%;
+  }
+
+  .character-tab{
+    width: 50%;
+  }
+
+  .stars, .image__circle, .profile__character {
+    margin-right: 20px;
+  }
+}

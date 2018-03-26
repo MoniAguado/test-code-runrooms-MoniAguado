@@ -1,0 +1,68 @@
+.character-tab {
+  padding: 30px;
+  border-top: $colorBackgroundHeader solid 1px;
+}
+
+.daenerys__character-image {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.Daenerys__image {
+  height: 100%;
+	width: auto;
+  margin-left: -40%;
+}
+
+.profile__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile {
+  padding: 10px;
+}
+
+.Daenerys__navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.description {
+  border-bottom: $colorStarYes solid 2px;
+}
+
+.description, .storie, .actress {
+  padding-right: 20px;
+}
+
+.Daenerys__text {
+  padding: 10px;
+  text-align: justify;
+  color: $colorBackgroundHeader;
+}
+
+@media all and (min-width: 764px) {
+  .character-tab {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    padding: 60px;
+  }
+}
+
+@media all and (min-width: 1100px) {
+
+  .profile__image {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

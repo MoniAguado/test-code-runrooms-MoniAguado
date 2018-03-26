@@ -1,2 +1,361 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900");
+
+.button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f6f9fc;
+  color: #89979e;
+  border: #89979e solid 1px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  padding-bottom: 5px;
+}
+
+.header__title {
+  color: #d5d5d5;
+  border-left: 2px solid #89979e;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header__character {
+  color: #89979e;
+  border-left: 2px solid #89979e;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navigation-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4a616e;
+}
+
+.navigation {
+  color: #d5d5d5;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+}
+
+.nav__favorite {
+  border-bottom: #00d8d5 solid 3px;
+}
+
+.name__character,.Daenerys__name {
+  color: #2d353b;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.house__character,.data {
+  color: #556975;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.navigation-title {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.header {
+  width: auto;
+  height: 60px;
+  padding: 15px;
+  background-color: #42525c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.header__texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: padding-left;
+  -ms-flex-align: padding-left;
+  align-items: padding-left;
+}
+
+.header__logo {
+  height: 30px;
+  width: 30px;
+  padding-right: 10px;
+  color: #f6f9fc;
+}
+
+.header__bell {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik';
+}
+
+.characters {
+  margin: 20px;
+  padding: 20px;
+  padding-right: 0;
+  background-color: white;
+}
+
+.characters__section {
+  background-color: #f6f9fc;
+}
+
+.character-alone {
+  border-bottom: #42525c solid 1px;
+}
+
+.character--Daenerys,.character--Tyrion {
+  border-left: #e10075 solid 3px;
+  padding: 0;
+}
+
+.character--Tyrion,.character--Cersey {
+  padding: 20px;
+}
+
+.image__circle {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.image__character {
+  height: 100%;
+  width: auto;
+  margin-left: -40%;
+}
+
+.triangule {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ffbf00;
+  border-left: 10px solid #ffbf00;
+  border-bottom: 10px solid transparent;
+}
+
+.character-triangule {
+  padding: 20px;
+}
+
+.character-tab {
+  padding: 30px;
+  border-top: #42525c solid 1px;
+}
+
+.daenerys__character-image {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.Daenerys__image {
+  height: 100%;
+  width: auto;
+  margin-left: -40%;
+}
+
+.profile__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.profile {
+  padding: 10px;
+}
+
+.Daenerys__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.description {
+  border-bottom: #00d8d5 solid 2px;
+}
+
+.description,.storie,.actress {
+  padding-right: 20px;
+}
+
+.Daenerys__text {
+  padding: 10px;
+  text-align: justify;
+  color: #42525c;
+}
+
+@media all and (min-width: 520px) {
+  .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  .header__texts {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media all and (min-width: 764px) {
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .character-list {
+    width: 60%;
+  }
+
+  .character-tab {
+    width: 40%;
+  }
+
+  .character-tab {
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    padding: 60px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .header__title,.header__character {
+    padding-right: 20px;
+  }
+}
+
+@media all and (min-width: 1100px) {
+  .profile__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .character__elements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .character-list {
+    width: 50%;
+  }
+
+  .character-tab {
+    width: 50%;
+  }
+
+  .stars,.image__circle,.profile__character {
+    margin-right: 20px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

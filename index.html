@@ -1,138 +1,174 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Game of Thrones</title>
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="icon" type="images/png" href="/images/favicon.ico">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Game of Thrones</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="icon" type="images/png" href="/images/favicon.ico">
+</head>
 
-	<body class="">
-  <header class="">
-    <div class="header__logo"></div>
-    <div class="header__title">Game of Thrones</div>
-    <div class="header__character">Daenerys Targaryen</div>
-  </header>
-  <main>
-    <section class="character-list">
-      <nav>
-        <ul>
-          <li class="nav__favorite">Favoritos</li>
-          <li class="nav__list">Listado de casas</li>
-          <li class="secondary__characters">Personajes secundarios</li>
-        </ul>
-      </nav>
-      <div class="buttons">
-        <button class="button button__top">Top (2)</button>
-        <button class="button button__no-value">Sin varlorar (3)</button>
-        <button class="button button__actual">Actualizados (4)</button>
-      </div>
-      <div class="characters">
-        <div class="character--Daenerys">
-          <div class="triangule"></div>
-          <div class="pink"></div>
-          <div class="stars">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-          </div>
-          <img class="image__character" src="" alt="">
-          <h3 class="name__character">Daenerys Targaryen</h3>
-          <h4 class="house__character">Casa Targaryen</h4>
-        </div>
-        <div class="character--Tyrion">
-          <div class="triangule"></div>
-          <div class="pink"></div>
-          <div class="stars">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-          </div>
-          <img class="image__character" src="" alt="">
-          <h3 class="name__character">Tyrion Lannister</h3>
-          <h4 class="house__character">Casa Lannister</h4>
-        </div>
-        <div class="character--Jon">
-          <div class="triangule"></div>
-          <div class="pink"></div>
-          <div class="stars">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-          </div>
-          <img class="image__character" src="" alt="">
-          <h3 class="name__character">Jon Snow</h3>
-          <h4 class="house__character">Lord comandante de la guardia de la noche</h4>
-        </div>
-        <div class="character--Margaery">
-          <div class="triangule"></div>
-          <div class="pink"></div>
-          <div class="stars">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-          </div>
-          <img class="image__character" src="" alt="">
-          <h3 class="name__character">Margaery Tyrell</h3>
-          <h4 class="house__character">Casa Tyrell</h4>
-        </div>
-        <div class="character--Sansa">
-          <div class="triangule"></div>
-          <div class="pink"></div>
-          <div class="stars">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-          </div>
-          <img class="image__character" src="" alt="">
-          <h3 class="name__character">Sansa Stark</h3>
-          <h4 class="house__character">Casa Stark</h4>
-        </div>
-        <div class="character--Cersey">
-          <div class="triangule"></div>
-          <div class="pink"></div>
-          <div class="stars">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-          </div>
-          <img class="image__character" src="" alt="">
-          <h3 class="name__character">Cersey Lannister</h3>
-          <h4 class="house__character">Casa Lannister</h4>
-        </div>
-      </div>
-      </div>
-    </section>
-    <section class="character-tab">
-      <img src="" alt="" class="Daenerys__image"></div>
-      <h3 class="Daenerys__name"></h3>
-      <div class="data">
-        <div class="alias"></div>
-        <div class="date"></div>
-        <div class="family"></div>
-      </div>
-      <nav class="Daenerys__navigation">
-        <h4 class="description"></h4>
-        <h4 class="storie"></h4>
-        <h4 class="actress"></h4>
-      </nav>
-      <div class="Daenerys__text">
-        <p></p>
-      </div>
-    </section>
-  </main>
-	</body>
-</html>
+<body class="body">
+	<header class="header">
+		<img src="images/house_targaryen.png" alt="Casa Targaryen" class="header__logo">
+		<div class="header__texts">
+			<div class="header__title">Game of Thrones</div>
+			<div class="header__character">Daenerys Targaryen</div>
+		</div>
+		<img src="images/notification.png" alt="Notificaciones" class="header__bell">
+	</header>
+	<main class="main">
+		<section class="character-list">
+			<nav>
+				<ul class="navigation-list">
+					<li class="navigation nav__favorite"><a href=""></a>Favoritos</li>
+					<li class="navigation nav__list"><a href=""></a>Listado de casas</li>
+					<li class="navigation secondary__characters"><a href=""></a>Personajes secundarios</li>
+				</ul>
+			</nav>
+			<div class="characters__section">
+				<div class="buttons">
+					<button class="button button__top">Top (2)</button>
+					<button class="button button__no-value">Sin varlorar (3)</button>
+					<button class="button button__actual">Actualizados (4)</button>
+				</div>
+				<div class="characters">
+					<div class="character-alone character--Daenerys">
+						<div class="triangule"></div>
+						<div class="character-triangule">
+							<div class="character__elements">
+							<div class="stars">
+								<img class="star" src="images/star-ok.png" alt="stars">
+								<img class="star" src="images/star-ok.png" alt="stars">
+								<img class="star" src="images/star-ok.png" alt="stars">
+								<img class="star" src="images/star-ok.png" alt="stars">
+								<img class="star" src="images/star-ok.png" alt="stars">
+							</div>
+							<div class="image__circle"><img class="image__character" src="images/daenerys.jpg" alt=""></div>
+							<div class="profile__character">
+								<h3 class="name__character">Daenerys Targaryen</h3>
+								<h4 class="house__character">Casa Targaryen</h4>
+							</div>
+						</div>
+					</div>
+					</div>
+					<div class="character-alone character--Tyrion">
+						<div class="character__elements">
+						<div class="stars">
+							<img class="star" src="images/star-ok.png" alt="stars">
+							<img class="star" src="images/star-ok.png" alt="stars">
+							<img class="star" src="images/star-ok.png" alt="stars">
+							<img class="star" src="images/star-ok.png" alt="stars">
+							<img class="star" src="images/star-ko.png" alt="stars">
+						</div>
+						<div class="image__circle"><img class="image__character" src="images/Tyrion.jpg" alt=""></div>
+						<div class="profile__character">
+							<h3 class="name__character">Tyrion Lannister</h3>
+							<h4 class="house__character">Casa Lannister</h4>
+						</div>
+					</div>
+				</div>
+					<div class="character-alone character--Jon">
+						<div class="triangule"></div>
+						<div class="character-triangule">
+							<div class="character__elements">
+							<div class="stars">
+								<img class="star" src="images/star-ok.png" alt="stars">
+								<img class="star" src="images/star-ok.png" alt="stars">
+								<img class="star" src="images/star-ok.png" alt="stars">
+								<img class="star" src="images/star-ko.png" alt="stars">
+								<img class="star" src="images/star-ko.png" alt="stars">
+							</div>
+							<div class="image__circle"><img class="image__character" src="images/jon.jpg" alt=""></div>
+							<div class="profile__character">
+								<h3 class="name__character">Jon Snow</h3>
+								<h4 class="house__character">Lord comandante de la guardia de la noche</h4>
+							</div>
+						</div>
+					</div>
+					</div>
+					<div class="character-alone character--Margaery">
+						<div class="triangule"></div>
+						<div class="character-triangule">
+							<div class="character__elements">
+							<div class="stars">
+								<img class="star" src="images/star-ko.png" alt="stars">
+								<img class="star" src="images/star-ko.png" alt="stars">
+								<img class="star" src="images/star-ko.png" alt="stars">
+								<img class="star" src="images/star-ko.png" alt="stars">
+								<img class="star" src="images/star-ko.png" alt="stars">
+							</div>
+							<div class="image__circle"><img class="image__character" src="images/margaery.jpeg" alt=""></div>
+							<div class="profile__character">
+								<h3 class="name__character">Margaery Tyrell</h3>
+								<h4 class="house__character">Casa Tyrell</h4>
+							</div>
+						</div>
+					</div>
+					</div>
+					<div class="character-alone character--Sansa">
+						<div class="triangule"></div>
+						<div class="character-triangule">
+							<div class="character__elements">
+								<div class="stars">
+									<img class="star" src="images/star-ko.png" alt="stars">
+									<img class="star" src="images/star-ko.png" alt="stars">
+									<img class="star" src="images/star-ko.png" alt="stars">
+									<img class="star" src="images/star-ko.png" alt="stars">
+									<img class="star" src="images/star-ko.png" alt="stars">
+								</div>
+								<div class="image__circle"><img class="image__character" src="images/sansa.jpg" alt=""></div>
+								<div class="profile__character">
+									<h3 class="name__character">Sansa Stark</h3>
+									<h4 class="house__character">Casa Stark</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="character-alone character--Cersey">
+						<div class="character__elements">
+							<div class="stars">
+								<img class="star" src="images/star-ko.png" alt="stars">
+								<img class="star" src="images/star-ko.png" alt="stars">
+								<img class="star" src="images/star-ko.png" alt="stars">
+								<img class="star" src="images/star-ko.png" alt="stars">
+								<img class="star" src="images/star-ko.png" alt="stars">
+							</div>
+							<div class="image__circle"><img class="image__character" src="images/cersei.jpg" alt=""></div>
+							<div class="profile__character">
+								<h3 class="name__character">Cersey Lannister</h3>
+								<h4 class="house__character">Casa Lannister</h4>
+							</div>
+						</div>
+					</div>
+					</div>
+					</div>
+				</div>
+			</section>
+			<section class="character-tab">
+				<div class="profile__image">
+					<div class="daenerys__character-image"><img src="images/daenerys.jpg" alt="Daenerys" class="Daenerys__image"></div>
+					<div class="profile">
+						<h3 class="Daenerys__name">Daenerys Tangaryen</h3>
+						<div class="data">
+							<p class="alias"><strong>Alias: </strong>Dany; Daenerys de la Tormenta; Mhysa; Khaleesi</p>
+							<p class="date"><strong>Naimiento: </strong>284 DC</p>
+							<p class="family"><strong>Familia: </strong>Casa Targaryen</p>
+						</div>
+					</div>
+				</div>
+				<nav class="Daenerys__navigation">
+					<p class="navigation-title description">Description</p>
+					<p class="navigation-title storie">Historia</p>
+					<p class="navigation-title actress">Actriz</p>
+				</nav>
+				<div class="Daenerys__text">
+					<p>Daenerys 'Dany' Targaryen es un personaje de ficción de la saga de literatura fantástica Canción de hielo y fuego, escrita por George R. R. Martin. Daenerys es uno de los personajes principales y posee capítulos narrados desde su punto de vista en Juego de tronos, Choque de reyes, Tormenta de espadas y Danza de dragones. En la adaptación televisiva Juego de tronos, el personaje es interpretado por la actriz Emilia Clarke.
+						<br></br>Daenerys fue la única hija del rey Aerys II Targaryen y de su hermana-esposa, la reina Rhaella. Tras la muerte de su padre y de su hermano mayor en la Guerra del Usurpador, su madre murió dando a luz a la pequeña Daenerys. De esa manera, su hermano mayor Viserys quedó como legítimo rey Targaryen al Trono de Hierro y ella como su heredera.
+						<br></br>Se ha señalado que el destinador inicial del personaje de Daenerys es el «deseo de venganza»</p>
+					</div>
+				</section>
+
+			</main>
+		</body>
+		</html>

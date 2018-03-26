@@ -1,0 +1,59 @@
+
+.header__title {
+  color: $colorLogo;
+  border-left: 2px solid $colorTitleHeader;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+@media all and (min-width: 1024px) {
+  .header__title, .header__character {
+    padding-right: 20px;
+  }
+}
+
+.header__character {
+  color: $colorTitleHeader;
+  border-left: 2px solid $colorTitleHeader;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $colorBackgroundNavigation;
+}
+
+.navigation {
+  color: $colorLogo;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+}
+
+.nav__favorite {
+  border-bottom: $colorStarYes solid 3px;
+}
+
+.name__character, .Daenerys__name {
+  color: $colorName;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.house__character, .data {
+  color: $colorTextHouseHeader;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.navigation-title {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px;
+}
